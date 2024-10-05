@@ -6,6 +6,11 @@ layout: page
 title: About Me
 permalink: /
 ---
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/favicon/favicon-48x48.png" sizes="48x48" />
+<link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/favicon/favicon.svg" />
+<link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="{{ site.baseurl }}/assets/favicon/site.webmanifest" />
 
 ## WHO I AM 
 A thoughtful and creative engineering leader with over 6 years of experience building efficient and scaleable software to solve problems for customers.
