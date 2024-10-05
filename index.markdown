@@ -9,7 +9,7 @@ permalink: /
 
 ## WHO I AM 
 A thoughtful and creative engineering leader with over 6 years of experience building efficient and scaleable software to solve problems for customers.
-<img src="./assets/IMG_7400.JPG" alt="chuma image" width="400" style="max-width: 100%;"/>
+<img src="/assets/IMG_7400.JPG" alt="chuma image" width="400" style="max-width: 100%;"/>
 
 ## WHAT I’M GOOD AT
 Designing efficient and scaleable software systems to solve problems and effectively communicating to cross-functional audiences about technical concepts.
