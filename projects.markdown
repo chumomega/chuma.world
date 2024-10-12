@@ -15,3 +15,9 @@ It seems like people just don't understand each other these days... well that's 
 [Learn more here!](https://www.getechochamber.com/)
 <br/>
 <img src="{{ site.baseurl }}/assets/echo_chamber_logo.png" alt="echo chamber logo" width="400" style="max-width: 100%;"/>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+        addAnchorsToHeaders();
+  });
+</script>

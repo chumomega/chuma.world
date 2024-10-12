@@ -49,6 +49,9 @@ permalink: /articles/
             <h2><a href="https://medium.com/@${mediumUsername}" target="_blank">See more articles on Medium</a></h2>
           </div>
         `;
+
+        // Add anchor links after Medium feed is injected
+        addAnchorsToHeaders();
       })
       .catch(error => {
         console.error('Error fetching Medium feed:', error);

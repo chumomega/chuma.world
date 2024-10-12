@@ -19,3 +19,9 @@ Here's a collection of the various podcasts I was featured on.
 ## Tech Career Coaching
 Here's a collection of some of the 1 on 1 career coaching sessions that I offered random people on LinkedIn that were looking for help.
 <iframe width="560" height="315" style="max-width: 100%" src="https://www.youtube.com/embed/videoseries?si=wtjx1OY8jXozzRUx&amp;list=PL7Zul4bhud0tYjz08RZXYczu0C2koBB_7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+        addAnchorsToHeaders();
+  });
+</script>

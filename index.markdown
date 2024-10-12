@@ -31,3 +31,9 @@ Designing efficient and scaleable software systems to solve problems and effecti
 - ✨Educating - I’ve had a passion for educating others since my childhood having 6 siblings to school where I served others as a math tutor. Nowadays, this takes the form of written word on my blog and documents, oral presentations, and 1 on 1 mentorship.
 - ✨Efficiency - With so many things to do, I try to make the best use of my time always. This takes the form of parallelizing tasks and/or automating them when reasonable to do so.
 - ✨Teamwork - I learned from a young age playing football that no matter how good 1 person is, you need a team with a collective vision to win. The same thing goes for solving complex problems in the tech world. An individual contributor can be good, but a cohesive team can be great.
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+        addAnchorsToHeaders();
+  });
+</script>

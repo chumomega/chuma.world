@@ -1,0 +1,19 @@
+.header-anchor {
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;  /* Default color */
+  font-size: 0.8em;
+}
+
+.header-anchor:hover {
+  color: blue;  /* Hover color */
+}
+
+h1:hover .header-anchor,
+h2:hover .header-anchor,
+h3:hover .header-anchor,
+h4:hover .header-anchor,
+h5:hover .header-anchor,
+h6:hover .header-anchor {
+  color: blue;  /* Change color when hovering over the heading */
+}
