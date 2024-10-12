@@ -17,3 +17,7 @@ h5:hover .header-anchor,
 h6:hover .header-anchor {
   color: blue;  /* Change color when hovering over the heading */
 }
+
+iframe {
+  z-index: 1; /* Keep it lower than the popup */
+}
