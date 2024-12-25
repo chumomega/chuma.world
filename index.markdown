@@ -23,15 +23,15 @@ permalink: /
 <br/>
 <section id="logos">
   <h2>I've Worked With</h2>
-  <div class="logo-carousel">
+  <div class="logo-grid">
     <div class="logo-item"><img src="{{ site.baseurl }}/assets/Bloomberg_logo.svg" alt="Bloomberg Logo"></div>
-    <div class="logo-item"><img src="{{ site.baseurl }}/assets/Etsy_logo.svg" alt="Etsy Logo"></div>
     <div class="logo-item"><img src="{{ site.baseurl }}/assets/amazon_ads.jpg" alt="Amazon Ads Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/Etsy_logo.png" alt="Etsy Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/cuny_tech_prep_logo.png" alt="CUNY Tech Prep Logo"></div>
     <div class="logo-item"><img src="{{ site.baseurl }}/assets/justworks_logo.png" alt="Justworks Logo"></div>
     <div class="logo-item"><img src="{{ site.baseurl }}/assets/Mastercard-logo.svg" alt="Mastercard Logo"></div>
-    <div class="logo-item"><img src="{{ site.baseurl }}/assets/JobDiva-Logo.png" alt="JobDiva Logo"></div>
     <div class="logo-item"><img src="{{ site.baseurl }}/assets/nyc_cchr_logo.jpg" alt="NYC Commission on Human Rights Logo"></div>
-    <div class="logo-item"><img src="{{ site.baseurl }}/assets/cuny_tech_prep_logo.png" alt="CUNY Tech Prep Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/JobDiva-Logo.png" alt="JobDiva Logo"></div>
     <div class="logo-item"><img src="{{ site.baseurl }}/assets/ConEd_logo.svg" alt="Con Edison Logo"></div>
   </div>
 </section>
@@ -64,57 +64,24 @@ permalink: /
     color: #fff; /* Keep white text */
     text-decoration: none; /* Remove underline for visited */
   }
-  
-  .logo-carousel {
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
-    height: 100px; /* Fixed height for the carousel */
-    align-items: center;
-    position: relative;
-    white-space: nowrap;
-  }
 
-  .logo-item {
-    flex: 0 0 auto;
-    display: inline-block;
-    height: 100%; /* Match the fixed height of the carousel */
-    display: flex;
-    justify-content: center;
+  .logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
     align-items: center;
+    padding: 20px;
   }
 
   .logo-item img {
-    height: 100%;
-    width: auto; /* Allow width to scale proportionally */
-  }
-
-  @keyframes scroll-carousel {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-50%)); /* Scroll halfway through the carousel */
-    }
-  }
-
-  .logo-carousel {
-    animation: scroll-carousel 20s linear infinite;
+    max-height: 100px; /* Limit logo height */
+    width: auto; /* Ensure proportional scaling */
   }
 </style>
 
-<!-- Script -->
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const logoCarousel = document.querySelector('.logo-carousel');
-    const logos = Array.from(logoCarousel.children);
-
-    // Duplicate the logos for seamless scrolling
-    logos.forEach(logo => {
-      logoCarousel.appendChild(logo.cloneNode(true));
-    });
-
-    // Ensure all logos are visible
-    logoCarousel.style.width = `${logoCarousel.scrollWidth}px`;
+  document.addEventListener("DOMContentLoaded", function() {
+        addAnchorsToHeaders();
   });
 </script>
