@@ -12,28 +12,109 @@ permalink: /
 <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png" />
 <link rel="manifest" href="{{ site.baseurl }}/assets/favicon/site.webmanifest" />
 
-## WHO I AM 
-A thoughtful and creative engineering leader with over 6 years of experience building efficient and scaleable software to solve problems for customers.
-<img src="{{ site.baseurl }}/assets/IMG_7400.JPG" alt="chuma image" width="400" style="max-width: 100%;"/>
+<!-- About Section -->
+<section id="about">
+  <img src="{{ site.baseurl }}/assets/IMG_7400.JPG" alt="chuma image" width="400" style="max-width: 100%;"/>
+  <p>
+    I’m a thoughtful and creative engineering leader with over 6 years of experience building efficient and scalable software to solve problems for customers. My passion lies in creating impactful solutions, fostering teamwork, and educating others.
+  </p>
+  <a href="https://calendly.com/chumomega/free-consult" target="_blank" class="cta-button">Schedule Free Coaching</a>
+</section>
+<br/>
+<section id="logos">
+  <h2>I've Worked With</h2>
+  <div class="logo-carousel">
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/Bloomberg_logo.svg" alt="Bloomberg Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/Etsy_logo.svg" alt="Etsy Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/amazon_ads.jpg" alt="Amazon Ads Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/justworks_logo.png" alt="Justworks Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/Mastercard-logo.svg" alt="Mastercard Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/JobDiva-Logo.png" alt="JobDiva Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/nyc_cchr_logo.jpg" alt="NYC Commission on Human Rights Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/cuny_tech_prep_logo.png" alt="CUNY Tech Prep Logo"></div>
+    <div class="logo-item"><img src="{{ site.baseurl }}/assets/ConEd_logo.svg" alt="Con Edison Logo"></div>
+  </div>
+</section>
 
-## WHAT I’M GOOD AT
-Designing efficient and scaleable software systems to solve problems and effectively communicating to cross-functional audiences about technical concepts.
+<!-- Styles -->
+<style>
+  .cta-button {
+    background-color: #014397; /* Secondary color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-## WORK I’M MOST PROUD OF
-- ✅ Leading the treasury STRIP data acquisition and calculation process for Bloomberg’s Domestic Fixed Income Indices
-- ✅ Leading the migration of the European Asset Backed Security Indices at Bloomberg
-- ✅ Leading the automation of the receipt validation process for “stuck” receipts for the Amazon Shopper Panel mobile app.
-- ✅ Leading the blur detection for receipt images submitted to the Amazon Shopper Panel mobile app
-- ✅ Leading the list recommendations and quick delivery features for the buy on Etsy mobile app.
-- ✅ Building the end to end Pod Rank app to help save podcast listener time with deep insights before they press play.
+  .cta-button:hover {
+    transform: scale(1.1); /* Slightly enlarge the button */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    text-decoration: none; /* Remove underline on hover */
+  }
 
-## WHAT I CARE MOST ABOUT
-- ✨Educating - I’ve had a passion for educating others since my childhood having 6 siblings to school where I served others as a math tutor. Nowadays, this takes the form of written word on my blog and documents, oral presentations, and 1 on 1 mentorship.
-- ✨Efficiency - With so many things to do, I try to make the best use of my time always. This takes the form of parallelizing tasks and/or automating them when reasonable to do so.
-- ✨Teamwork - I learned from a young age playing football that no matter how good 1 person is, you need a team with a collective vision to win. The same thing goes for solving complex problems in the tech world. An individual contributor can be good, but a cohesive team can be great.
+  .cta-button:active {
+    background-color: #014397; /* Maintain color after click */
+    color: #fff; /* White text remains */
+    text-decoration: none; /* Ensure no underline */
+  }
 
+  .cta-button:visited {
+    background-color: #014397; /* Match default color to avoid dark blue */
+    color: #fff; /* Keep white text */
+    text-decoration: none; /* Remove underline for visited */
+  }
+  
+  .logo-carousel {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    height: 100px; /* Fixed height for the carousel */
+    align-items: center;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .logo-item {
+    flex: 0 0 auto;
+    display: inline-block;
+    height: 100%; /* Match the fixed height of the carousel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-item img {
+    height: 100%;
+    width: auto; /* Allow width to scale proportionally */
+  }
+
+  @keyframes scroll-carousel {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-50%)); /* Scroll halfway through the carousel */
+    }
+  }
+
+  .logo-carousel {
+    animation: scroll-carousel 20s linear infinite;
+  }
+</style>
+
+<!-- Script -->
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-        addAnchorsToHeaders();
+  document.addEventListener("DOMContentLoaded", function () {
+    const logoCarousel = document.querySelector('.logo-carousel');
+    const logos = Array.from(logoCarousel.children);
+
+    // Duplicate the logos for seamless scrolling
+    logos.forEach(logo => {
+      logoCarousel.appendChild(logo.cloneNode(true));
+    });
+
+    // Ensure all logos are visible
+    logoCarousel.style.width = `${logoCarousel.scrollWidth}px`;
   });
 </script>
