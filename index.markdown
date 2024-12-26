@@ -26,33 +26,42 @@ permalink: /
 
   <h2>Background</h2>
   <p>
-    Since my youth as a child of Nigerian immigrants, I was fascinated with computers and business. When I got my first computer, I was hooked. I played games, watched cartoons, and downloaded music. Because internet in my home was shoddy and resources were low, I had to learn new ways to gain value from the system. This meant downloading flash games for offline play, learning about routers, and so much more. 
+    Since my youth as a child of Nigerian immigrants, I was fascinated with computers and business. When I got my first computer, I was hooked. I played games, watched cartoons, and downloaded music. Because internet in my home was shoddy and resources were scarce, I had to learn new ways to gain value from the system. This meant downloading flash games for offline play, learning about routers, and so much more. 
+  </p>
+  <img src="{{ site.baseurl }}/assets/black-kid-tinkering.webp" alt="black kid tinkering" width="400" style="max-width: 100%;"/>
+  <p>
+    On top of my technology pursuits, I also sought to establish myself in the business space. I spent a lot of time with my father growing up, watching him embark on his entrepreneurial endeavors. He took me to Manhattan to buy perfumes that he would sell in Nigeria. In addition, I used to be with him when he was negotiating the price of rundown used cars to ship to Nigeria so he could repair and sell there.
   </p>
   <p>
-    On top of my technology pursuits, I also sought to establish myself in the business space. I spent a lot of time with my father growing up, watching him embark on his entrepreneurial endeavors. He would go to Manhattan with me to buy perfumes that he would sell in Nigeria. In addition, I used to be with him when he was negotiating the price of run down used cars to ship to Nigeria so he could repair and sell there.
+    Unknowingly, I started to follow suit in my own way. When it snowed outside, I was first on the block to start hitting up the homeowners in East Flatbush. This turned into selling candy in high school and hyped streetwear/sneakers during undergrad. 
   </p>
-  <p>
-    Unknowingly, I started to follow suit in my own way. When it snowed outside, I was first on the block to start hitting up the homeowners in East Flatbush. This turned into selling candy in high school and hypewear during undergrad. 
-  </p>
+  <img src="{{ site.baseurl }}/assets/black_kid_selling_hypewear.webp" alt="black kid selling hypewear" width="400" style="max-width: 100%;"/>
+  <br/>
+  <br/>
   <h2>Education</h2>
   <p>
-    When I was old enough for middle school, I got accepted to Mark Twain for the Gifted and Talented in NYC for the Math & Computer talent. This led to my acceptance into Brooklyn Technical High School where my major was Electro-Mechanical Engineering. Last but not least, I attended Brooklyn College for a Bachelor's of Science in Computer Science.
+    When I was old enough for middle school, I got accepted to Mark Twain for the Gifted and Talented in NYC for the Math & Computer talent. This led to my acceptance into Brooklyn Technical High School where my major was Electro-Mechanical Engineering. Last but not least, I attended Brooklyn College for a Bachelor of Science in Computer Science.
   </p>
   <p>
     After establishing myself in the technology space, my first love, as a Software Engineer, I decided to seriously pursue my second interest: business. I enrolled in a MBA program at the Zicklin School of Business. While there, I was blessed to learn about all the aspects of running a business including: Managing People & Organizations, Corporate Finance, Strategic Business Communication, Investment Analysis, Marketing, Strategy & Competitive Advantage, and so much more...
   </p>
+  <img src="{{ site.baseurl }}/assets/comp_sci_and_business.webp" alt="black kid studying computer science and business" width="400" style="max-width: 100%;"/>
+  <br/>
+  <br/>
   <h2>What Now?</h2>
   <p>
-    I'm currently leveraging my education and over 6 years of experience working in the technology industry to build efficient and scaleable software that solves big problems. The key competencies that help me achieve this include: creative problem solving, clear written & verbal communication skills, and my bias towards action.
+    I'm currently leveraging my education and over 6 years of experience working in the technology industry to build efficient and scalable software that solves big problems. The key competencies that help me achieve this include: creative problem solving, clear written & verbal communication skills, and my bias towards action.
   </p>
+  <img src="{{ site.baseurl }}/assets/innovation_communication_problemsolving.webp" alt="innovation, communication, and problem solving" width="400" style="max-width: 100%;"/>
   <p>
-    One of the volunteer activities I like to engage in is career coaching. Growing up, I didn't know anything about the role of "Software Engineer". I got to the place I'm at through advice and mentorship from several people I've met in route. I started giving advice by writing <a href="https://chumomega.medium.com/list/recruiting-season-set-yourself-up-for-success-8d48c618701e"  target="_blank">blog posts on the tech career questions I received most.</a> For readers who have more questions, I've also opened up my schedule for 1 on 1 coaching.
+    One of the volunteer activities I like to engage in is career coaching. Growing up, I didn't know anything about the role of "Software Engineer". I got to the place I'm at through advice and mentorship from several people I've met in route. I started giving advice by writing <a href="https://chumomega.medium.com/list/recruiting-season-set-yourself-up-for-success-8d48c618701e"  target="_blank">blog posts on the tech career questions I received most.</a> For readers who have more questions, I've also opened up my schedule for one on one coaching.
   </p>
   <a href="https://calendly.com/chumomega/free-consult" target="_blank" class="cta-button">Schedule 1v1 Coaching</a>
 </section>
 <br/>
 <section id="logos">
   <h2>I've Worked With</h2>
+  <p>Here are some companies and organizations I've had the privilege to work with in a technical capacity</p>
   <div class="logo-grid">
     <div class="logo-item"><img src="{{ site.baseurl }}/assets/Bloomberg_logo.svg" alt="Bloomberg Logo"></div>
     <div class="logo-item"><img src="{{ site.baseurl }}/assets/amazon_ads.jpg" alt="Amazon Ads Logo"></div>
