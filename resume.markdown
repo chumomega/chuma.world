@@ -4,11 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-<iframe src="/assets/Chuma_ModernCV.pdf" width="100%" height="1000px" wmode="transparent">
-</iframe>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-        addAnchorsToHeaders();
-  });
-</script>
+<div class="resume-download">
+  <p>A PDF copy of my resume is available below.</p>
+  <a href="{{ site.baseurl }}/assets/Chuma_ModernCV.pdf" download class="cta-button cta-button--outline">Download Resume</a>
+</div>

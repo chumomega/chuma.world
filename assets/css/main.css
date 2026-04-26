@@ -1,23 +1,425 @@
-.header-anchor {
-  margin-right: 8px;
+/* ── 0. Variables ─────────────────────────────────────── */
+:root {
+  --color-primary: #014397;
+  --color-primary-dark: #012d6e;
+  --color-text: #1a1a2e;
+  --color-text-muted: #6b7280;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafc;
+  --color-border: #e5e7eb;
+  --radius: 10px;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.07);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* ── 1. Base / Typography ─────────────────────────────── */
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--color-text);
+  line-height: 1.7;
+  background-color: #faf9f7;
+}
+
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-footer {
+  background-color: #ffffff;
+  border-top: 1px solid var(--color-border);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+/* ── 3. CTA Button ────────────────────────────────────── */
+.cta-button {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: var(--radius);
   text-decoration: none;
-  color: black;  /* Default color */
-  font-size: 0.8em;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.15s, box-shadow 0.15s, background-color 0.15s;
 }
 
-.header-anchor:hover {
-  color: blue;  /* Hover color */
+.cta-button:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+  color: #fff;
 }
 
-h1:hover .header-anchor,
-h2:hover .header-anchor,
-h3:hover .header-anchor,
-h4:hover .header-anchor,
-h5:hover .header-anchor,
-h6:hover .header-anchor {
-  color: blue;  /* Change color when hovering over the heading */
+.cta-button:active,
+.cta-button:visited {
+  background-color: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
 }
 
+.cta-button--outline {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1.5px solid var(--color-border);
+}
+
+.cta-button--outline:hover {
+  background-color: var(--color-bg-alt);
+  color: var(--color-text);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-1px);
+}
+
+.cta-button--outline:visited {
+  background-color: transparent;
+  color: var(--color-text);
+}
+
+/* ── 4. Hero Section ──────────────────────────────────── */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 2.5rem 0 2.5rem;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 2.5rem;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 2.4rem;
+  margin: 0 0 0.4rem;
+  color: var(--color-text);
+}
+
+.hero-tagline {
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.hero-image img {
+  width: 240px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  .hero-image img {
+    width: 180px;
+    margin: 0 auto;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* ── 5. Logo Marquee ──────────────────────────────────── */
+.logo-marquee {
+  overflow: hidden;
+  padding: 24px 0;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.logo-marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+
+.logo-marquee-track img {
+  height: 52px;
+  width: auto;
+  filter: grayscale(50%);
+  opacity: 0.85;
+  transition: filter 0.2s, opacity 0.2s;
+  flex-shrink: 0;
+}
+
+.logo-marquee-track img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.logo-marquee:hover .logo-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── 6. Project Grid + Cards ──────────────────────────── */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s, transform 0.2s;
+  padding: 1.25rem;
+}
+
+.project-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  object-position: center;
+  background: var(--color-bg-alt);
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: block;
+  box-sizing: border-box;
+}
+
+.project-card h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.project-card br {
+  display: none;
+}
+
+/* ── 7. Article Grid ─────────────────────────────────── */
+.article-loading {
+  color: var(--color-text-muted);
+}
+
+.article-section {
+  margin-bottom: 2.5rem;
+}
+
+.article-section-heading {
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .article-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s, transform 0.2s;
+  overflow: hidden;
+}
+
+.article-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.article-card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+}
+
+.article-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.25rem;
+}
+
+.article-source {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  background: rgba(1, 67, 151, 0.08);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+  align-self: flex-start;
+}
+
+.article-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.article-title:hover {
+  color: var(--color-primary);
+}
+
+.article-meta {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin: 0 0 0.5rem;
+}
+
+.article-excerpt {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.article-read-more {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.article-read-more:hover {
+  text-decoration: underline;
+}
+
+.article-cta {
+  grid-column: 1 / -1;
+  padding: 0.5rem 0 1rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* ── 8. Resume ────────────────────────────────────────── */
+.resume-download {
+  padding: 2rem 0;
+}
+
+.resume-download p {
+  color: var(--color-text-muted);
+  margin-bottom: 1.25rem;
+}
+
+/* ── 8. Cross-page consistency ────────────────────────── */
+.home .page-heading {
+  display: none;
+}
+
+.site-title {
+  font-weight: 700 !important;
+  letter-spacing: -0.01em;
+}
+
+.site-title:hover {
+  text-decoration: underline !important;
+  opacity: 0.8;
+}
+
+
+.page-content h1,
+.page-content h2,
+.page-content h3 {
+  color: var(--color-text);
+}
+
+.page-content a:not(.cta-button) {
+  color: var(--color-primary);
+}
+
+/* ── 9. Footer ────────────────────────────────────────── */
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-social {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-social a:hover {
+  color: var(--color-primary);
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* ── 10. Misc ─────────────────────────────────────────── */
 iframe {
-  z-index: 1; /* Keep it lower than the popup */
+  z-index: 1;
 }

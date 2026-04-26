@@ -1,6 +1,6 @@
 // Function to add anchors to headers
 function addAnchorsToHeaders() {
-  const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+  const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
 
   headers.forEach(function(header) {
     if (!header.querySelector('.header-anchor')) {  // Avoid adding duplicate anchors
