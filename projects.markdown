@@ -30,7 +30,7 @@ Get podcast insights before you press play. Leverages React, NLP from AWS, and P
 
 ## Sneaky Sneaks
 A sneaker app built to explore the hype sneaker market — tracking drops, prices, and resale trends.
-[View on GitHub](https://github.com/chumomega/SneakySneaks)
+[View on GitHub](https://github.com/chumomega/SneakySneaks) &nbsp;·&nbsp; [Try it](https://sneakysneaks-production.up.railway.app/)
 
 </div>
 
