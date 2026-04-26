@@ -4,12 +4,28 @@
   --color-primary-dark: #012d6e;
   --color-text: #1a1a2e;
   --color-text-muted: #6b7280;
+  --color-page: #faf9f7;
   --color-bg: #ffffff;
   --color-bg-alt: #f8fafc;
   --color-border: #e5e7eb;
+  --color-source-bg: rgba(1, 67, 151, 0.08);
   --radius: 10px;
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.07);
   --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="dark"] {
+  --color-primary: #60a5fa;
+  --color-primary-dark: #3b82f6;
+  --color-text: #e2e8f0;
+  --color-text-muted: #94a3b8;
+  --color-page: #0b1220;
+  --color-bg: #131b2c;
+  --color-bg-alt: #1e293b;
+  --color-border: #2a3548;
+  --color-source-bg: rgba(96, 165, 250, 0.15);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
 }
 
 /* ── 1. Base / Typography ─────────────────────────────── */
@@ -17,16 +33,17 @@ body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   color: var(--color-text);
   line-height: 1.7;
-  background-color: #faf9f7;
+  background-color: var(--color-page);
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .site-header {
-  background-color: #ffffff;
+  background-color: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
 }
 
 .site-footer {
-  background-color: #ffffff;
+  background-color: var(--color-bg);
   border-top: 1px solid var(--color-border);
 }
 
@@ -293,7 +310,7 @@ a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--color-primary);
-  background: rgba(1, 67, 151, 0.08);
+  background: var(--color-source-bg);
   padding: 0.2rem 0.6rem;
   border-radius: 999px;
   margin-bottom: 0.5rem;
@@ -419,7 +436,65 @@ a {
   margin: 0;
 }
 
-/* ── 10. Misc ─────────────────────────────────────────── */
+/* ── 10. Theme Toggle ─────────────────────────────────── */
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  margin-left: 1rem;
+  padding: 0;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.theme-toggle:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.theme-toggle .icon-sun,
+.theme-toggle .icon-moon {
+  width: 16px;
+  height: 16px;
+}
+
+[data-theme="light"] .theme-toggle .icon-sun { display: none; }
+[data-theme="dark"]  .theme-toggle .icon-moon { display: none; }
+
+/* ── 11. Dark mode component overrides ───────────────── */
+[data-theme="dark"] .site-title,
+[data-theme="dark"] .page-link {
+  color: var(--color-text) !important;
+}
+
+[data-theme="dark"] .post-link,
+[data-theme="dark"] .page-content a:not(.cta-button) {
+  color: var(--color-primary);
+}
+
+[data-theme="dark"] .logo-marquee {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: var(--radius);
+  padding: 18px 0;
+}
+
+[data-theme="dark"] .cta-button--outline {
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .cta-button--outline:hover {
+  color: var(--color-text);
+  background-color: var(--color-bg-alt);
+}
+
+/* ── 12. Misc ─────────────────────────────────────────── */
 iframe {
   z-index: 1;
 }

@@ -36,7 +36,7 @@ permalink: /
   <div class="logo-marquee">
     <div class="logo-marquee-track">
       <img src="{{ site.baseurl }}/assets/Bloomberg_logo.svg" alt="Bloomberg">
-      <img src="{{ site.baseurl }}/assets/amazon_ads.jpg" alt="Amazon Ads">
+      <img src="{{ site.baseurl }}/assets/amazon_ads.png" alt="Amazon Ads">
       <img src="{{ site.baseurl }}/assets/Etsy_logo.png" alt="Etsy">
       <img src="{{ site.baseurl }}/assets/cuny_tech_prep_logo.png" alt="CUNY Tech Prep">
       <img src="{{ site.baseurl }}/assets/justworks_logo.png" alt="Justworks">
@@ -44,7 +44,7 @@ permalink: /
       <img src="{{ site.baseurl }}/assets/ConEd_logo.svg" alt="Con Edison">
       <!-- duplicated for seamless loop -->
       <img src="{{ site.baseurl }}/assets/Bloomberg_logo.svg" alt="Bloomberg">
-      <img src="{{ site.baseurl }}/assets/amazon_ads.jpg" alt="Amazon Ads">
+      <img src="{{ site.baseurl }}/assets/amazon_ads.png" alt="Amazon Ads">
       <img src="{{ site.baseurl }}/assets/Etsy_logo.png" alt="Etsy">
       <img src="{{ site.baseurl }}/assets/cuny_tech_prep_logo.png" alt="CUNY Tech Prep">
       <img src="{{ site.baseurl }}/assets/justworks_logo.png" alt="Justworks">
