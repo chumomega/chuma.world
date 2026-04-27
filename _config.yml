@@ -34,6 +34,18 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Nav order (header iterates this list)
+header_pages:
+  - projects.markdown
+  - stories.markdown
+  - resume.markdown
+  - services.markdown
+
+# Don't process .bak archive files
+exclude:
+  - "*.bak"
+  - "**/*.bak"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -8,21 +8,21 @@ permalink: /projects/
 
 <div class="project-card" markdown="1">
 
-<img src="{{ site.baseurl }}/assets/echo_chamber_logo.png" alt="Echo Chamber logo" />
+<img src="{{ site.baseurl }}/assets/echo_chamber_icon.jpg" alt="EchoChamber app icon" />
 
 ## Echo Chamber
-A Google Chrome extension that helps users identify when they're in an echo chamber and surfaces diverse perspectives to break out of it. Built with Google Gemini, Firebase, and the Chrome Extension API.
-[View on GitHub](https://github.com/chumomega/echo_chamber) &nbsp;·&nbsp; [Get the extension](https://www.getechochamber.com/)
+A tool that detects when content sits inside an echo chamber, explains why, and surfaces balanced recommendations to broaden your perspective. Available as an iOS app and a Chrome extension. Built with Google Gemini, Firebase, and the Chrome Extension API.
+[Download on the App Store](https://apps.apple.com/us/app/echochamber-break-the-bubble/id6753664425) &nbsp;·&nbsp; [Get the Chrome extension](https://www.getechochamber.com/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/echo_chamber)
 
 </div>
 
 <div class="project-card" markdown="1">
 
-<img src="{{ site.baseurl }}/assets/podrank_logo.jpeg" alt="Pod Rank logo" />
+<img src="{{ site.baseurl }}/assets/podrank_icon.jpg" alt="PodRank app icon" />
 
-## Pod Rank
-Get podcast insights before you press play. Leverages React, NLP from AWS, and Postgres to help listeners save time by surfacing summaries and analytics before they commit to an episode.
-[View on GitHub](https://github.com/chumomega/pod-rank-ext) &nbsp;·&nbsp; [Learn more](https://www.podrank.co/about)
+## PodRank
+Know before you listen. PodRank surfaces AI-powered summaries, sentiment analysis, and topic highlights for podcast episodes across Apple, Spotify, and YouTube — so you spend less time guessing and more time listening.
+[Download on the App Store](https://apps.apple.com/us/app/podrank-podcast-insights/id6746962404) &nbsp;·&nbsp; [Marketing site](https://www.podrank.co/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/pod-rank-ext)
 
 </div>
 
@@ -52,9 +52,11 @@ A game development project — hack your way through a warehouse.
 
 <div class="project-card" markdown="1">
 
+<img src="{{ site.baseurl }}/assets/scalepal_icon.jpg" alt="ScalePal app icon" />
+
 ## ScalePal
-Marketing and support website for ScalePal, a mobile app. Built with Jekyll and hosted on GitHub Pages.
-[View on GitHub](https://github.com/chumomega/ScalePalWeb)
+A stress-free weight tracker for iOS — your supportive companion for daily weigh-ins. Streak tracking, progress charts, HealthKit sync, and offline-first design. No calorie counting, no anxiety.
+[Download on the App Store](https://apps.apple.com/us/app/scalepal-weight-tracker/id6752838575) &nbsp;·&nbsp; [Marketing site](https://chumomega.github.io/ScalePalWeb/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/ScalePalWeb)
 
 </div>
 
