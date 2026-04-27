@@ -6,9 +6,9 @@ permalink: /services/
 
 <!-- Hero -->
 <section class="services-hero">
-  <h1>Ship the thing you've been meaning to ship.</h1>
+  <h1>Launch the thing you've been meaning to launch.</h1>
   <p class="services-hero-tagline">
-    I shipped at <strong>Bloomberg</strong>, <strong>Amazon</strong>, and <strong>Etsy</strong>. Now I help builders ship the things they couldn't ship alone — fast, deployed, and built to keep building on.
+    I built and launched products at <strong>Bloomberg</strong>, <strong>Amazon</strong>, and <strong>Etsy</strong>. Now I help builders launch the things they couldn't on their own — fast, live on the web, and built to keep building on.
   </p>
   <a href="https://calendly.com/chumaokoro/scoping-call/" class="cta-button">Book a 20-min scoping call</a>
 </section>
@@ -23,7 +23,7 @@ permalink: /services/
     <li>You need a real backend — auth, database, deployed somewhere — and you've been stuck on it for weeks.</li>
   </ul>
   <p>
-    I get it shipped. Deployed, documented, and yours to keep building on.
+    I get it launched. Live, documented, and yours to keep building on.
   </p>
 </section>
 
@@ -41,10 +41,10 @@ permalink: /services/
     </li>
     <li>
       <h3>Review</h3>
-      <p>Every diff goes through me. Same bar I held shipping production code at Bloomberg, Amazon, and Etsy. No code goes live that I haven't read.</p>
+      <p>Every diff goes through me. Same bar I held writing production code at Bloomberg, Amazon, and Etsy. No code goes live that I haven't read.</p>
     </li>
     <li>
-      <h3>Ship</h3>
+      <h3>Launch</h3>
       <p>Deployed to your hosting (Vercel, Railway, the App Store — whatever fits), wired to your domain, working in the real world.</p>
     </li>
     <li>
@@ -59,7 +59,7 @@ permalink: /services/
   <h2>What this looks like in practice</h2>
   <p class="services-proof-intro">A featured case study from my own work — and a link to the rest.</p>
   <div class="case-study">
-    <h3>SneakySneaks — modernized & shipped</h3>
+    <h3>SneakySneaks — modernized & launched</h3>
     <p>
       A sneaker app frozen on Spring Boot 2 and React 15. I rebuilt it on Spring Boot 3.3 + Java 17, React 18 + Webpack 5, swapped in PostgreSQL with form-based auth, added realtime updates over WebSocket, and deployed it to Railway as a single artifact. Documented in a <code>CLAUDE.md</code> at the repo root so it stays maintainable.
     </p>
@@ -143,7 +143,7 @@ permalink: /services/
     I've spent a decade shipping production software at companies where the bar is high and the consequences are real — Bloomberg, Amazon, Etsy, Mastercard, Justworks. I have an MBA from Zicklin (CUNY Baruch). I coach engineers on breaking into and growing in tech.
   </p>
   <p>
-    You're not hiring a freelancer who learned this last quarter. You're hiring a senior engineer who happens to ship faster than most.
+    You're not hiring a freelancer who learned this last quarter. You're hiring a senior engineer who happens to launch faster than most.
   </p>
 </section>
 
@@ -153,12 +153,12 @@ permalink: /services/
 
   <div class="faq-item">
     <h3>Did you use AI to build this?</h3>
-    <p>Yes — AI writes the first draft. I review every line, refactor what doesn't meet my bar, and own the result. You're hiring a senior engineer who's shipped production code at Bloomberg, Amazon, and Etsy — not a prompt-and-pray service.</p>
+    <p>Yes — AI writes the first draft. I review every line, refactor what doesn't meet my bar, and own the result. You're hiring a senior engineer with a decade of production experience at Bloomberg, Amazon, and Etsy — not a prompt-and-pray service.</p>
   </div>
 
   <div class="faq-item">
     <h3>Why not use Cursor or Lovable myself?</h3>
-    <p>You can. Most people get 60% of the way and stall on auth, deployment, or the next feature. I get you to a shipped, deployed app — and on the handoff call, I teach you how to keep going.</p>
+    <p>You can. Most people get 60% of the way and stall on auth, deployment, or the next feature. I get you to a launched, working app — and on the handoff call, I teach you how to keep going.</p>
   </div>
 
   <div class="faq-item">
@@ -184,7 +184,7 @@ permalink: /services/
 
 <!-- Final CTA -->
 <section class="services-cta">
-  <h2>Ready to ship?</h2>
+  <h2>Ready to launch?</h2>
   <p>20 minutes. We scope your project, see if it's a fit, and you walk away with a clearer plan either way.</p>
   <a href="https://calendly.com/chumaokoro/scoping-call/" class="cta-button">Book a 20-min scoping call</a>
   <p class="services-cta-fallback">
