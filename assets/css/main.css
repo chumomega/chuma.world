@@ -913,3 +913,20 @@ code {
   background: var(--color-primary);
   color: #fff;
 }
+
+/* ── 16. Mobile Nav Dropdown ─────────────────────────── */
+/* Minima hardcodes a white background on .site-nav at the mobile
+   breakpoint, which collides with our dark-mode page-link color
+   (light text on still-white bg = invisible). Make it theme-aware. */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background-color: var(--color-bg);
+    border-color: var(--color-border);
+  }
+  .site-nav .page-link {
+    color: var(--color-text);
+  }
+  .site-nav .page-link:hover {
+    color: var(--color-primary);
+  }
+}
