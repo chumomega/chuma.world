@@ -621,6 +621,10 @@ iframe {
   box-shadow: var(--shadow-sm);
 }
 
+.case-study + .case-study {
+  margin-top: 1rem;
+}
+
 .case-study h3 {
   margin: 0 0 0.75rem;
   font-size: 1.2rem;

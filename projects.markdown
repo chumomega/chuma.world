@@ -28,6 +28,17 @@ Know before you listen. PodRank surfaces AI-powered summaries, sentiment analysi
 
 <div class="project-card" markdown="1">
 
+<img src="{{ site.baseurl }}/assets/tempo64_icon.png" alt="Tempo64 app icon" />
+
+## Tempo64
+Paste a chess game (PGN or chess.com link) and Tempo64 renders a vertical 9:16 short with timed SFX — gunshots on threats, fahh / bruh / rizz on check, and a TikTok-core flourish on mate. All on-device, no server.
+[Marketing site](https://chumomega.github.io/tempo-ios/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/tempo-ios)
+<!-- TODO: add `[Download on the App Store](APP_STORE_URL)` link once approved -->
+
+</div>
+
+<div class="project-card" markdown="1">
+
 ## Sneaky Sneaks
 A sneaker app built to explore the hype sneaker market — tracking drops, prices, and resale trends.
 [View on GitHub](https://github.com/chumomega/SneakySneaks) &nbsp;·&nbsp; [Try it](https://sneakysneaks-production.up.railway.app/)

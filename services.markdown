@@ -54,10 +54,10 @@ permalink: /services/
   </ol>
 </section>
 
-<!-- Proof / Case Study -->
+<!-- Proof / Case Studies -->
 <section class="services-proof">
   <h2>What this looks like in practice</h2>
-  <p class="services-proof-intro">A featured case study from my own work — and a link to the rest.</p>
+  <p class="services-proof-intro">Featured case studies from my own work — and a link to the rest.</p>
   <div class="case-study">
     <h3>SneakySneaks — modernized & launched</h3>
     <p>
@@ -65,6 +65,15 @@ permalink: /services/
     </p>
     <p class="case-study-meta">
       Stack: Spring Boot 3.3 · Java 17 · React 18 · PostgreSQL · WebSocket/STOMP · Railway
+    </p>
+  </div>
+  <div class="case-study">
+    <h3>Tempo64 — chess games as vertical shorts</h3>
+    <p>
+      A native iOS app that turns a PGN or chess.com link into a 1080×1920 H.264 short with timed SFX — gunshots on hanging pieces, "fahh / bruh / rizz" on check, a TikTok-core flourish on mate. Rendered on-device with AVFoundation; no server, no upload. Shipped with a chess.com URL importer (callback API + Published-Data archive) so users can paste a link instead of hunting for the PGN. Project layout managed via XcodeGen, audio mix composed in float32 PCM, video and audio rendered in parallel and muxed via AVAssetExportSession.
+    </p>
+    <p class="case-study-meta">
+      Stack: Swift · SwiftUI · AVFoundation · ChessKit · XcodeGen · GitHub Pages (marketing)
     </p>
   </div>
   <div class="services-proof-more">
