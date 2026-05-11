@@ -37,16 +37,18 @@ A tool that detects when content sits inside an echo chamber, explains why, and 
 [Download on the App Store](https://apps.apple.com/us/app/echochamber-break-the-bubble/id6753664425) &nbsp;·&nbsp; [Get the Chrome extension](https://www.getechochamber.com/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/echo_chamber)
 
 <div class="lang-bar">
-  <span class="lang-seg" style="width:80.5%;background:#3572A5"></span>
-  <span class="lang-seg" style="width:16.1%;background:#f1e05a"></span>
-  <span class="lang-seg" style="width:2.4%;background:#e34c26"></span>
-  <span class="lang-seg" style="width:1%;background:#384d54"></span>
+  <span class="lang-seg" style="width:45%;background:#FA7343"></span>
+  <span class="lang-seg" style="width:35%;background:#3572A5"></span>
+  <span class="lang-seg" style="width:15%;background:#f1e05a"></span>
+  <span class="lang-seg" style="width:3%;background:#e34c26"></span>
+  <span class="lang-seg" style="width:2%;background:#384d54"></span>
 </div>
 <div class="lang-legend">
-  <span class="lang-item"><span class="lang-dot" style="background:#3572A5"></span><b>Python</b> 80.5%</span>
-  <span class="lang-item"><span class="lang-dot" style="background:#f1e05a"></span><b>JavaScript</b> 16.1%</span>
-  <span class="lang-item"><span class="lang-dot" style="background:#e34c26"></span><b>HTML</b> 2.4%</span>
-  <span class="lang-item"><span class="lang-dot" style="background:#384d54"></span><b>Dockerfile</b> 1.0%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#FA7343"></span><b>Swift</b> 45%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#3572A5"></span><b>Python</b> 35%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#f1e05a"></span><b>JavaScript</b> 15%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#e34c26"></span><b>HTML</b> 3%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#384d54"></span><b>Dockerfile</b> 2%</span>
 </div>
 
 </div>
@@ -60,14 +62,16 @@ Know before you listen. PodRank surfaces AI-powered summaries, sentiment analysi
 [Download on the App Store](https://apps.apple.com/us/app/podrank-podcast-insights/id6746962404) &nbsp;·&nbsp; [Marketing site](https://www.podrank.co/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/pod-rank-ext)
 
 <div class="lang-bar">
-  <span class="lang-seg" style="width:85%;background:#FA7343"></span>
-  <span class="lang-seg" style="width:10%;background:#f1e05a"></span>
-  <span class="lang-seg" style="width:5%;background:#e34c26"></span>
+  <span class="lang-seg" style="width:70%;background:#FA7343"></span>
+  <span class="lang-seg" style="width:20%;background:#f1e05a"></span>
+  <span class="lang-seg" style="width:7%;background:#e34c26"></span>
+  <span class="lang-seg" style="width:3%;background:#3178c6"></span>
 </div>
 <div class="lang-legend">
-  <span class="lang-item"><span class="lang-dot" style="background:#FA7343"></span><b>Swift</b> 85%</span>
-  <span class="lang-item"><span class="lang-dot" style="background:#f1e05a"></span><b>JavaScript</b> 10%</span>
-  <span class="lang-item"><span class="lang-dot" style="background:#e34c26"></span><b>HTML</b> 5%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#FA7343"></span><b>Swift</b> 70%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#f1e05a"></span><b>JavaScript</b> 20%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#e34c26"></span><b>HTML</b> 7%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#3178c6"></span><b>TypeScript</b> 3%</span>
 </div>
 
 </div>
@@ -81,14 +85,10 @@ A stress-free weight tracker for iOS — your supportive companion for daily wei
 [Download on the App Store](https://apps.apple.com/us/app/scalepal-weight-tracker/id6752838575) &nbsp;·&nbsp; [Marketing site](https://chumomega.github.io/ScalePalWeb/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/ScalePalWeb)
 
 <div class="lang-bar">
-  <span class="lang-seg" style="width:93%;background:#FA7343"></span>
-  <span class="lang-seg" style="width:5%;background:#e34c26"></span>
-  <span class="lang-seg" style="width:2%;background:#701516"></span>
+  <span class="lang-seg" style="width:100%;background:#FA7343"></span>
 </div>
 <div class="lang-legend">
-  <span class="lang-item"><span class="lang-dot" style="background:#FA7343"></span><b>Swift</b> 93%</span>
-  <span class="lang-item"><span class="lang-dot" style="background:#e34c26"></span><b>HTML</b> 5%</span>
-  <span class="lang-item"><span class="lang-dot" style="background:#701516"></span><b>Ruby</b> 2%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#FA7343"></span><b>Swift</b> 100%</span>
 </div>
 
 </div>

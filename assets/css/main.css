@@ -244,10 +244,10 @@ a {
   display: none;
 }
 
-/* Monochrome wordmark/logo SVGs (e.g., StockX) — black-on-transparent
-   source files inverted to white-on-dark so they read against a dark
-   backdrop. Sized to match .project-card img's footprint so card
-   heights stay aligned across the grid. */
+/* Brand-color wordmark/logo SVGs (e.g., StockX green). Same footprint
+   as .project-card img so card heights stay aligned across the grid;
+   the heavier padding gives the wordmark room to breathe. No filter —
+   colors come from the SVG's own fill attribute. */
 .project-card .project-icon-mono {
   width: 100%;
   height: 140px;
@@ -259,7 +259,6 @@ a {
   margin-bottom: 0.75rem;
   display: block;
   box-sizing: border-box;
-  filter: invert(1);
 }
 
 /* Emoji-as-icon placeholder. Matches .project-card img's footprint so
