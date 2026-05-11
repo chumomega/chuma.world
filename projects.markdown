@@ -64,12 +64,22 @@ Know before you listen. PodRank surfaces AI-powered summaries, sentiment analysi
 [Download on the App Store](https://apps.apple.com/us/app/podrank-podcast-insights/id6746962404) &nbsp;·&nbsp; [Marketing site](https://www.podrank.co/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/pod-rank-ext)
 
 <div class="lang-bar">
-  <span class="lang-seg" style="width:99.7%;background:#FA7343"></span>
-  <span class="lang-seg" style="width:0.3%;background:#89e051"></span>
+  <span class="lang-seg" style="width:60.8%;background:#b07219"></span>
+  <span class="lang-seg" style="width:27.4%;background:#FA7343"></span>
+  <span class="lang-seg" style="width:6.2%;background:#e34c26"></span>
+  <span class="lang-seg" style="width:3.7%;background:#f1e05a"></span>
+  <span class="lang-seg" style="width:1.3%;background:#89e051"></span>
+  <span class="lang-seg" style="width:0.4%;background:#663399"></span>
+  <span class="lang-seg" style="width:0.3%;background:#336790"></span>
 </div>
 <div class="lang-legend">
-  <span class="lang-item"><span class="lang-dot" style="background:#FA7343"></span><b>Swift</b> 99.7%</span>
-  <span class="lang-item"><span class="lang-dot" style="background:#89e051"></span><b>Shell</b> 0.3%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#b07219"></span><b>Java</b> 60.8%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#FA7343"></span><b>Swift</b> 27.4%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#e34c26"></span><b>HTML</b> 6.2%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#f1e05a"></span><b>JavaScript</b> 3.7%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#89e051"></span><b>Shell</b> 1.3%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#663399"></span><b>CSS</b> 0.4%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#336790"></span><b>PLpgSQL</b> 0.3%</span>
 </div>
 
 </div>
