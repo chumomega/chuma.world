@@ -58,23 +58,38 @@ permalink: /services/
 <section class="services-proof">
   <h2>What this looks like in practice</h2>
   <p class="services-proof-intro">Featured case studies from my own work — and a link to the rest.</p>
-  <div class="case-study">
-    <h3>SneakySneaks — modernized & launched</h3>
-    <p>
-      A sneaker app frozen on Spring Boot 2 and React 15. I rebuilt it on Spring Boot 3.3 + Java 17, React 18 + Webpack 5, swapped in PostgreSQL with form-based auth, added realtime updates over WebSocket, and deployed it to Railway as a single artifact. Documented in a <code>CLAUDE.md</code> at the repo root so it stays maintainable.
-    </p>
-    <p class="case-study-meta">
-      Stack: Spring Boot 3.3 · Java 17 · React 18 · PostgreSQL · WebSocket/STOMP · Railway
-    </p>
+  <div class="case-study case-study--with-media">
+    <video class="case-study-media case-study-media--landscape"
+           autoplay muted loop playsinline
+           poster="{{ site.baseurl }}/assets/demos/sneakysneaks-poster.jpg">
+      <source src="{{ site.baseurl }}/assets/demos/sneakysneaks.mp4" type="video/mp4">
+      <source src="{{ site.baseurl }}/assets/demos/sneakysneaks.webm" type="video/webm">
+    </video>
+    <div class="case-study-body">
+      <h3>SneakySneaks — modernized & launched</h3>
+      <p>
+        A sneaker app frozen on Spring Boot 2 and React 15. I rebuilt it on Spring Boot 3.3 + Java 17, React 18 + Webpack 5, swapped in PostgreSQL with form-based auth, added realtime updates over WebSocket, and deployed it to Railway as a single artifact. Documented in a <code>CLAUDE.md</code> at the repo root so it stays maintainable.
+      </p>
+      <p class="case-study-meta">
+        Stack: Spring Boot 3.3 · Java 17 · React 18 · PostgreSQL · WebSocket/STOMP · Railway
+      </p>
+    </div>
   </div>
-  <div class="case-study">
-    <h3>Tempo64 — chess games as vertical shorts</h3>
-    <p>
-      A native iOS app that turns a PGN or chess.com link into a 1080×1920 H.264 short with timed SFX — gunshots on hanging pieces, "fahh / bruh / rizz" on check, a TikTok-core flourish on mate. Rendered on-device with AVFoundation; no server, no upload. Shipped with a chess.com URL importer (callback API + Published-Data archive) so users can paste a link instead of hunting for the PGN. Project layout managed via XcodeGen, audio mix composed in float32 PCM, video and audio rendered in parallel and muxed via AVAssetExportSession.
-    </p>
-    <p class="case-study-meta">
-      Stack: Swift · SwiftUI · AVFoundation · ChessKit · XcodeGen · GitHub Pages (marketing)
-    </p>
+  <div class="case-study case-study--with-media">
+    <video class="case-study-media case-study-media--portrait"
+           autoplay muted loop playsinline
+           poster="{{ site.baseurl }}/assets/demos/tempo64-poster.jpg">
+      <source src="{{ site.baseurl }}/assets/demos/tempo64.mp4" type="video/mp4">
+    </video>
+    <div class="case-study-body">
+      <h3>Tempo64 — chess games as vertical shorts</h3>
+      <p>
+        A native iOS app that turns a PGN or chess.com link into a 1080×1920 H.264 short with timed SFX — gunshots on hanging pieces, "fahh / bruh / rizz" on check, a TikTok-core flourish on mate. Rendered on-device with AVFoundation; no server, no upload. Shipped with a chess.com URL importer (callback API + Published-Data archive) so users can paste a link instead of hunting for the PGN. Project layout managed via XcodeGen, audio mix composed in float32 PCM, video and audio rendered in parallel and muxed via AVAssetExportSession.
+      </p>
+      <p class="case-study-meta">
+        Stack: Swift · SwiftUI · AVFoundation · ChessKit · XcodeGen · GitHub Pages (marketing)
+      </p>
+    </div>
   </div>
   <div class="services-proof-more">
     <a href="{{ site.baseurl }}/projects/" class="cta-button cta-button--outline">See all my projects →</a>

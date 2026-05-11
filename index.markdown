@@ -31,6 +31,39 @@ permalink: /
   <a href="mailto:chuma.okoro76@gmail.com" class="cta-button cta-button--outline">Get in touch</a>
 </section>
 <br/>
+
+<!-- Project strip — what I've built. Sits above the companies marquee
+     because products are the more interesting top-of-funnel signal:
+     "indie iOS builder" reads more vividly than another FAANG bio. -->
+<section id="projects-strip">
+  <h2>Things I've Built</h2>
+  <div class="projects-strip-grid">
+    <a class="project-tile" href="https://apps.apple.com/us/app/echochamber-break-the-bubble/id6753664425">
+      <img src="{{ site.baseurl }}/assets/echo_chamber_icon.jpg" alt="Echo Chamber app icon" />
+      <span class="project-tile-name">Echo Chamber</span>
+      <span class="project-tile-tag">Break the bubble.</span>
+    </a>
+    <a class="project-tile" href="https://apps.apple.com/us/app/podrank-podcast-insights/id6746962404">
+      <img src="{{ site.baseurl }}/assets/podrank_icon.jpg" alt="PodRank app icon" />
+      <span class="project-tile-name">PodRank</span>
+      <span class="project-tile-tag">Know before you listen.</span>
+    </a>
+    <a class="project-tile" href="https://apps.apple.com/us/app/scalepal-weight-tracker/id6752838575">
+      <img src="{{ site.baseurl }}/assets/scalepal_icon.jpg" alt="ScalePal app icon" />
+      <span class="project-tile-name">ScalePal</span>
+      <span class="project-tile-tag">Weigh-ins without anxiety.</span>
+    </a>
+    <a class="project-tile" href="https://chumomega.github.io/tempo-ios/">
+      <img src="{{ site.baseurl }}/assets/tempo64_icon.png" alt="Tempo64 app icon" />
+      <span class="project-tile-name">Tempo64</span>
+      <span class="project-tile-tag">Chess games as shorts.</span>
+    </a>
+  </div>
+  <p class="projects-strip-more">
+    <a href="{{ site.baseurl }}/projects/">See all my projects →</a>
+  </p>
+</section>
+<br/>
 <section id="logos">
   <h2>I've Worked With</h2>
   <div class="logo-marquee">

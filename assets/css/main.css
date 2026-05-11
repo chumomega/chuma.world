@@ -706,6 +706,126 @@ iframe {
   margin-top: 1rem;
 }
 
+/* Case studies with a side-by-side demo clip + body. Stacks to a
+   single column on narrow screens so the video doesn't dominate. */
+.case-study--with-media {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 720px) {
+  .case-study--with-media {
+    flex-direction: column;
+  }
+}
+
+.case-study-media {
+  display: block;
+  border-radius: 8px;
+  background: #000;
+  box-shadow: var(--shadow-sm);
+  flex-shrink: 0;
+}
+
+/* Landscape clips (16:9 desktop products like SneakySneaks). */
+.case-study-media--landscape {
+  width: 280px;
+  aspect-ratio: 16 / 9;
+}
+
+/* Portrait clips (9:16 iOS products like Tempo64). */
+.case-study-media--portrait {
+  width: 160px;
+  aspect-ratio: 9 / 16;
+}
+
+@media (max-width: 720px) {
+  .case-study-media--landscape,
+  .case-study-media--portrait {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+.case-study-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.case-study-body h3 {
+  margin-top: 0;
+}
+
+/* Home-page project strip. Grid of 2-4 clickable tiles linking
+   straight to the product (App Store, marketing site, or live
+   demo) — these are CTAs, not credentialing chrome like the
+   companies marquee below. */
+#projects-strip {
+  margin-top: 2rem;
+}
+
+.projects-strip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 720px) {
+  .projects-strip-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none !important;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.project-tile:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+  text-decoration: none !important;
+}
+
+.project-tile img {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  margin-bottom: 0.6rem;
+  object-fit: cover;
+}
+
+.project-tile-name {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.project-tile-tag {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  line-height: 1.3;
+}
+
+.projects-strip-more {
+  margin-top: 0.85rem;
+  text-align: right;
+  font-size: 0.9rem;
+}
+
 .case-study h3 {
   margin: 0 0 0.75rem;
   font-size: 1.2rem;
