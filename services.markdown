@@ -13,6 +13,61 @@ permalink: /services/
   <a href="https://calendly.com/chumaokoro/scoping-call/" class="cta-button">Book a 20-min scoping call</a>
 </section>
 
+<!-- Credibility strip — companies first (signals seniority), then
+     products (signals "this person ships their own work"). Sits
+     between hero and the problem framing so prospects warm up to
+     the credentialing before reading the rest of the page. -->
+<section class="services-trust">
+  <div class="services-trust-block">
+    <h3>I've shipped at</h3>
+    <div class="logo-marquee">
+      <div class="logo-marquee-track">
+        <img src="{{ site.baseurl }}/assets/Bloomberg_logo.svg" alt="Bloomberg">
+        <img src="{{ site.baseurl }}/assets/amazon_ads.png" alt="Amazon Ads">
+        <img src="{{ site.baseurl }}/assets/Etsy_logo.png" alt="Etsy">
+        <img src="{{ site.baseurl }}/assets/cuny_tech_prep_logo.png" alt="CUNY Tech Prep">
+        <img src="{{ site.baseurl }}/assets/justworks_logo.png" alt="Justworks">
+        <img src="{{ site.baseurl }}/assets/Mastercard-logo.svg" alt="Mastercard">
+        <img src="{{ site.baseurl }}/assets/ConEd_logo.svg" alt="Con Edison">
+        <!-- duplicated for seamless loop -->
+        <img src="{{ site.baseurl }}/assets/Bloomberg_logo.svg" alt="Bloomberg">
+        <img src="{{ site.baseurl }}/assets/amazon_ads.png" alt="Amazon Ads">
+        <img src="{{ site.baseurl }}/assets/Etsy_logo.png" alt="Etsy">
+        <img src="{{ site.baseurl }}/assets/cuny_tech_prep_logo.png" alt="CUNY Tech Prep">
+        <img src="{{ site.baseurl }}/assets/justworks_logo.png" alt="Justworks">
+        <img src="{{ site.baseurl }}/assets/Mastercard-logo.svg" alt="Mastercard">
+        <img src="{{ site.baseurl }}/assets/ConEd_logo.svg" alt="Con Edison">
+      </div>
+    </div>
+  </div>
+
+  <div class="services-trust-block">
+    <h3>And built on my own</h3>
+    <div class="projects-strip-grid">
+      <a class="project-tile" href="https://apps.apple.com/us/app/tempo64/id6764440731">
+        <img src="{{ site.baseurl }}/assets/tempo64_icon.png" alt="Tempo64 app icon" />
+        <span class="project-tile-name">Tempo64</span>
+        <span class="project-tile-tag">Chess games as shorts.</span>
+      </a>
+      <a class="project-tile" href="https://apps.apple.com/us/app/echochamber-break-the-bubble/id6753664425">
+        <img src="{{ site.baseurl }}/assets/echo_chamber_icon.jpg" alt="Echo Chamber app icon" />
+        <span class="project-tile-name">Echo Chamber</span>
+        <span class="project-tile-tag">Break the bubble.</span>
+      </a>
+      <a class="project-tile" href="https://apps.apple.com/us/app/podrank-podcast-insights/id6746962404">
+        <img src="{{ site.baseurl }}/assets/podrank_icon.jpg" alt="PodRank app icon" />
+        <span class="project-tile-name">PodRank</span>
+        <span class="project-tile-tag">Know before you listen.</span>
+      </a>
+      <a class="project-tile" href="https://apps.apple.com/us/app/scalepal-weight-tracker/id6752838575">
+        <img src="{{ site.baseurl }}/assets/scalepal_icon.jpg" alt="ScalePal app icon" />
+        <span class="project-tile-name">ScalePal</span>
+        <span class="project-tile-tag">Weigh-ins without anxiety.</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- The Problem -->
 <section class="services-problem">
   <h2>Why people hire me</h2>

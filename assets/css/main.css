@@ -728,15 +728,19 @@ iframe {
   flex-shrink: 0;
 }
 
-/* Landscape clips (16:9 desktop products like SneakySneaks). */
+/* Same width for landscape AND portrait clips so the body text
+   column starts at the same x offset across case studies. Aspect
+   ratio determines the natural height. */
+.case-study-media--landscape,
+.case-study-media--portrait {
+  width: 200px;
+}
+
 .case-study-media--landscape {
-  width: 280px;
   aspect-ratio: 16 / 9;
 }
 
-/* Portrait clips (9:16 iOS products like Tempo64). */
 .case-study-media--portrait {
-  width: 160px;
   aspect-ratio: 9 / 16;
 }
 
@@ -824,6 +828,27 @@ iframe {
   margin-top: 0.85rem;
   text-align: right;
   font-size: 0.9rem;
+}
+
+/* Services-page credibility strip — wraps the companies marquee +
+   the project-tile grid so they share consistent spacing. Compact
+   headlines (h3, not h2) so this section reads as supporting
+   evidence rather than a top-level section. */
+.services-trust {
+  margin: 1.5rem 0 2rem;
+}
+
+.services-trust-block + .services-trust-block {
+  margin-top: 1.5rem;
+}
+
+.services-trust-block h3 {
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
 }
 
 .case-study h3 {

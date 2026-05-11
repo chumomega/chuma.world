@@ -38,6 +38,11 @@ permalink: /
 <section id="projects-strip">
   <h2>Things I've Built</h2>
   <div class="projects-strip-grid">
+    <a class="project-tile" href="https://apps.apple.com/us/app/tempo64/id6764440731">
+      <img src="{{ site.baseurl }}/assets/tempo64_icon.png" alt="Tempo64 app icon" />
+      <span class="project-tile-name">Tempo64</span>
+      <span class="project-tile-tag">Chess games as shorts.</span>
+    </a>
     <a class="project-tile" href="https://apps.apple.com/us/app/echochamber-break-the-bubble/id6753664425">
       <img src="{{ site.baseurl }}/assets/echo_chamber_icon.jpg" alt="Echo Chamber app icon" />
       <span class="project-tile-name">Echo Chamber</span>
@@ -52,11 +57,6 @@ permalink: /
       <img src="{{ site.baseurl }}/assets/scalepal_icon.jpg" alt="ScalePal app icon" />
       <span class="project-tile-name">ScalePal</span>
       <span class="project-tile-tag">Weigh-ins without anxiety.</span>
-    </a>
-    <a class="project-tile" href="https://chumomega.github.io/tempo-ios/">
-      <img src="{{ site.baseurl }}/assets/tempo64_icon.png" alt="Tempo64 app icon" />
-      <span class="project-tile-name">Tempo64</span>
-      <span class="project-tile-tag">Chess games as shorts.</span>
     </a>
   </div>
   <p class="projects-strip-more">
