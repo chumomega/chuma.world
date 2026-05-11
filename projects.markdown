@@ -12,7 +12,7 @@ permalink: /projects/
 
 ## Tempo64
 Paste a chess game (PGN or chess.com link) and Tempo64 renders a vertical 9:16 short with timed SFX — gunshots on threats, fahh / bruh / rizz on check, and a TikTok-core flourish on mate. All on-device, no server.
-[Marketing site](https://chumomega.github.io/tempo-ios/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/tempo-ios)
+[Marketing site](https://chumomega.github.io/tempo-ios/)
 <!-- TODO: add `[Download on the App Store](APP_STORE_URL)` link once approved -->
 
 <div class="lang-bar">
@@ -34,7 +34,7 @@ Paste a chess game (PGN or chess.com link) and Tempo64 renders a vertical 9:16 s
 
 ## Echo Chamber
 A tool that detects when content sits inside an echo chamber, explains why, and surfaces balanced recommendations to broaden your perspective. Available as an iOS app and a Chrome extension. Built with Google Gemini, Firebase, and the Chrome Extension API.
-[Download on the App Store](https://apps.apple.com/us/app/echochamber-break-the-bubble/id6753664425) &nbsp;·&nbsp; [Get the Chrome extension](https://www.getechochamber.com/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/echo_chamber)
+[Download on the App Store](https://apps.apple.com/us/app/echochamber-break-the-bubble/id6753664425) &nbsp;·&nbsp; [Get the Chrome extension](https://www.getechochamber.com/)
 
 <div class="lang-bar">
   <span class="lang-seg" style="width:64.2%;background:#FA7343"></span>
@@ -61,7 +61,7 @@ A tool that detects when content sits inside an echo chamber, explains why, and 
 
 ## PodRank
 Know before you listen. PodRank surfaces AI-powered summaries, sentiment analysis, and topic highlights for podcast episodes across Apple, Spotify, and YouTube — so you spend less time guessing and more time listening.
-[Download on the App Store](https://apps.apple.com/us/app/podrank-podcast-insights/id6746962404) &nbsp;·&nbsp; [Marketing site](https://www.podrank.co/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/pod-rank-ext)
+[Download on the App Store](https://apps.apple.com/us/app/podrank-podcast-insights/id6746962404) &nbsp;·&nbsp; [Marketing site](https://www.podrank.co/)
 
 <div class="lang-bar">
   <span class="lang-seg" style="width:60.8%;background:#b07219"></span>
@@ -90,7 +90,7 @@ Know before you listen. PodRank surfaces AI-powered summaries, sentiment analysi
 
 ## ScalePal
 A stress-free weight tracker for iOS — your supportive companion for daily weigh-ins. Streak tracking, progress charts, HealthKit sync, and offline-first design. No calorie counting, no anxiety.
-[Download on the App Store](https://apps.apple.com/us/app/scalepal-weight-tracker/id6752838575) &nbsp;·&nbsp; [Marketing site](https://chumomega.github.io/ScalePalWeb/) &nbsp;·&nbsp; [View on GitHub](https://github.com/chumomega/ScalePalWeb)
+[Download on the App Store](https://apps.apple.com/us/app/scalepal-weight-tracker/id6752838575) &nbsp;·&nbsp; [Marketing site](https://chumomega.github.io/ScalePalWeb/)
 
 <div class="lang-bar">
   <span class="lang-seg" style="width:100%;background:#FA7343"></span>
@@ -107,7 +107,7 @@ A stress-free weight tracker for iOS — your supportive companion for daily wei
 
 ## Sneaky Sneaks
 A sneaker app built to explore the hype sneaker market — tracking drops, prices, and resale trends. Rebuilt on Spring Boot 3.3 + Java 17, React 18 + Webpack 5, PostgreSQL, and realtime updates over WebSocket.
-[View on GitHub](https://github.com/chumomega/SneakySneaks) &nbsp;·&nbsp; [Try it](https://sneakysneaks-production.up.railway.app/)
+[Try it](https://sneakysneaks-production.up.railway.app/)
 
 <div class="lang-bar">
   <span class="lang-seg" style="width:53.6%;background:#f1e05a"></span>
@@ -164,7 +164,7 @@ A game development project — hack your way through a warehouse.
 
 ## Nutty Efficiency
 A React prototype companion to [a blog post](https://chumomega.medium.com/nutty-efficiency-what-pistachios-teach-about-data-structures-algorithms-1edb680d8b29) about data structures and algorithms — using pistachios as the analogy.
-[View on GitHub](https://github.com/chumomega/pistachio-cracker) &nbsp;·&nbsp; [Try it](https://chumomega.github.io/pistachio-cracker/)
+[Try it](https://chumomega.github.io/pistachio-cracker/)
 
 <div class="lang-bar">
   <span class="lang-seg" style="width:74.4%;background:#f1e05a"></span>
@@ -185,7 +185,7 @@ A React prototype companion to [a blog post](https://chumomega.medium.com/nutty-
 
 ## Time is Money
 A Corporate Finance-inspired app that uses present/future value of cashflows to help people think about saving differently.
-[View on GitHub](https://github.com/chumomega/timeismoney) &nbsp;·&nbsp; [Try it](https://chumomega.github.io/timeismoney/)
+[Try it](https://chumomega.github.io/timeismoney/)
 
 <div class="lang-bar">
   <span class="lang-seg" style="width:83.2%;background:#f1e05a"></span>
