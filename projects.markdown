@@ -146,14 +146,16 @@ A Python scraper for pulling sneaker resale price data from StockX — built to 
 <div class="project-emoji-icon" aria-label="Warehouse Wreckage">📦</div>
 
 ## Warehouse Wreckage
-A game development project — hack your way through a warehouse.
+A game development project — hack your way through a warehouse. Built with Unreal Engine using Blueprints and C++.
 [View on GitHub](https://github.com/chumomega/WarehouseWreckage)
 
 <div class="lang-bar">
-  <span class="lang-seg" style="width:100%;background:#178600"></span>
+  <span class="lang-seg" style="width:70%;background:#5C92BF"></span>
+  <span class="lang-seg" style="width:30%;background:#f34b7d"></span>
 </div>
 <div class="lang-legend">
-  <span class="lang-item"><span class="lang-dot" style="background:#178600"></span><b>C#</b> · Unity</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#5C92BF"></span><b>Blueprints</b> 70%</span>
+  <span class="lang-item"><span class="lang-dot" style="background:#f34b7d"></span><b>C++</b> 30%</span>
 </div>
 
 </div>
