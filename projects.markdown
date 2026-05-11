@@ -118,7 +118,7 @@ A sneaker app built to explore the hype sneaker market — tracking drops, price
 
 <div class="project-card" markdown="1">
 
-<div class="project-emoji-icon" aria-label="StockX Web Scraper">📈</div>
+<img src="{{ site.baseurl }}/assets/stockx_logo.svg" alt="StockX logo" class="project-icon-mono" />
 
 ## StockX Web Scraper
 A Python scraper for pulling sneaker resale price data from StockX — built to explore market trends and practice data engineering.
@@ -194,7 +194,7 @@ A Corporate Finance-inspired app that uses present/future value of cashflows to 
 
 <div class="project-card" markdown="1">
 
-<div class="project-emoji-icon" aria-label="chuma.world">🌐</div>
+<img src="{{ site.baseurl }}/assets/favicon/favicon.svg" alt="chuma.world C monogram" />
 
 ## chuma.world
 The open source Jekyll site you're on right now. Continuously evolving.
