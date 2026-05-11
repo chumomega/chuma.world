@@ -245,15 +245,16 @@ a {
 }
 
 /* Brand-color wordmark/logo SVGs (e.g., StockX green). Same footprint
-   as .project-card img so card heights stay aligned across the grid;
-   the heavier padding gives the wordmark room to breathe. No filter —
-   colors come from the SVG's own fill attribute. */
+   AND background as .project-card img so the grid stays visually
+   uniform — every project card has the same light backdrop, only the
+   icon glyph changes. Heavier padding gives the wordmark room to
+   breathe; colors come from the SVG's own fill attribute. */
 .project-card .project-icon-mono {
   width: 100%;
   height: 140px;
   object-fit: contain;
   object-position: center;
-  background: linear-gradient(135deg, #1e1e24, #2c2c34);
+  background: var(--color-bg-alt);
   border-radius: 6px;
   padding: 2rem;
   margin-bottom: 0.75rem;
@@ -261,17 +262,16 @@ a {
   box-sizing: border-box;
 }
 
-/* Emoji-as-icon placeholder. Matches .project-card img's footprint so
-   cards stay visually aligned regardless of which projects do/don't
-   have a real logo yet. Dark gradient + big centered emoji reads as
-   "icon" rather than "missing image." */
+/* Emoji-as-icon placeholder. Matches .project-card img's footprint
+   AND background (light) so cards stay visually aligned regardless
+   of which projects do/don't have a real logo yet. */
 .project-emoji-icon {
   width: 100%;
   height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #1e1e24, #2c2c34);
+  background: var(--color-bg-alt);
   border-radius: 6px;
   padding: 0.75rem;
   margin-bottom: 0.75rem;
