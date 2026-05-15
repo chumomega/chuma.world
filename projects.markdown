@@ -12,7 +12,7 @@ permalink: /projects/
 
 ## Tempo64
 Paste a chess game (PGN or chess.com link) and Tempo64 renders a vertical 9:16 short with timed SFX — gunshots on threats, fahh / bruh / rizz on check, and a TikTok-core flourish on mate. All on-device, no server.
-[Download on the App Store](https://apps.apple.com/us/app/tempo64/id6764440731) &nbsp;·&nbsp; [Marketing site](https://chumomega.github.io/tempo-ios/)
+[Download on the App Store](https://apps.apple.com/us/app/tempo64/id6764440731) &nbsp;·&nbsp; [Marketing site](https://chumomega.github.io/tempo64-webpage/)
 
 <div class="lang-bar">
   <span class="lang-seg" style="width:91%;background:#FA7343"></span>
