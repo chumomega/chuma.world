@@ -8,7 +8,7 @@ Tagline: "Software Engineer · Builder · Career Coach" (used in hero on `index.
 - Jekyll 4.3.4 + minima 2.5.2 theme
 - Inter (Google Fonts) is the site font, loaded in `_includes/head.html`
 - GitHub Pages deployment: `git push` to main triggers deploy
-- URL: https://chumomega.github.io/chuma.world/
+- URL: https://chuma.world (custom domain via `CNAME`; `_config.yml` `url` must match)
 
 ## Run Locally
 ```bash
@@ -59,8 +59,11 @@ bundle exec jekyll serve
 - All favicon `<link>` tags live in `_includes/head.html`
 
 ## Open Graph / Share Image
-- `og:image` is set in `_includes/head.html` to `/assets/IMG_7400.JPG` (a 1568×1568 portrait)
-- Known limitation: not the OG-recommended 1200×630, has no name/tagline/URL on it — replace with a branded card if/when share appearance matters
+- `og:image` is `/assets/og-cover.png` (1200×630, OG-recommended size)
+- Set two ways that must stay in sync:
+  - Hand-written tag in `_includes/head.html` (uses `absolute_url`)
+  - `defaults.image` in `_config.yml` — needed because jekyll-seo-tag's `ImageDrop` reads from `page.image` only (ignores `site.image`), and without it the plugin falls back to `twitter:card = summary`
+- Replace with a branded card (name/tagline) if share appearance becomes a priority
 
 ## Content Conventions
 - All content lives in markdown files — prefer keeping it that way

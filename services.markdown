@@ -202,7 +202,7 @@ permalink: /services/
 
   <div class="faq-item">
     <h3>Did you use AI to build this?</h3>
-    <p>Yes — AI writes the first draft. I review every line, refactor what doesn't meet my bar, and own the result. You're hiring a senior engineer with a decade of production experience at Bloomberg, Amazon, and Etsy — not a prompt-and-pray service.</p>
+    <p>Yes — AI writes the first draft. I review every line, refactor what doesn't meet my bar, and own the result. You're hiring a senior engineer with nearly a decade of experience shipping production software — including roles at Bloomberg, Amazon, and Etsy — not a prompt-and-pray service.</p>
   </div>
 
   <div class="faq-item">
@@ -237,6 +237,6 @@ permalink: /services/
   <p>20 minutes. We scope your project, see if it's a fit, and you walk away with a clearer plan either way.</p>
   <a href="https://calendly.com/chumaokoro/scoping-call/" class="cta-button">Book a 20-min scoping call</a>
   <p class="services-cta-fallback">
-    Or <a href="mailto:chuma.okoro76@gmail.com">email me</a> with a sentence about your project.
+    Or <a href="mailto:{{ site.email }}?subject=Project%20inquiry">email me</a> with a sentence about your project.
   </p>
 </section>
