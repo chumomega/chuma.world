@@ -23,11 +23,22 @@ email: chuma.okoro76@gmail.com
 description: >-
   I build portfolio sites, iOS apps, and full-stack web products for founders who want to launch the thing. Bloomberg / Amazon / Etsy alum. Coaching too.
 baseurl: ""
-url: "https://chumomega.github.io/chuma.world/"
+url: "https://chuma.world"
 linkedin_username: chumomega
 github_username:  chumomega
 youtube_username: "@chumomega"
 instagram_username: chumomega
+
+twitter:
+  card: summary_large_image
+  username: chumomega
+
+# Default og:image for every page (consumed by jekyll-seo-tag via page.image)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-cover.png
 
 # Build settings
 theme: minima

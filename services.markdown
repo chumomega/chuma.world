@@ -68,43 +68,29 @@ permalink: /services/
   </div>
 </section>
 
-<!-- The Problem -->
-<section class="services-problem">
-  <h2>Why people hire me</h2>
-  <ul class="services-problem-list">
-    <li>Your portfolio site still doesn't exist because templates feel generic and code feels overwhelming.</li>
-    <li>Your app idea has been a notes file for two years.</li>
-    <li>You started something with a no-code tool and outgrew it in a month.</li>
-    <li>You need a real backend — auth, database, deployed somewhere — and you've been stuck on it for weeks.</li>
-  </ul>
-  <p>
-    I get it launched. Live, documented, and yours to keep building on.
-  </p>
-</section>
-
 <!-- The Method -->
 <section class="services-method">
   <h2>How I work</h2>
   <ol class="services-method-list">
     <li>
       <h3>Plan</h3>
-      <p>We scope on a call. I write the architecture before any code is written, so we both know what "done" looks like.</p>
+      <p>Architecture before code. We scope on a call; you see "done" before I write a line.</p>
     </li>
     <li>
       <h3>Build</h3>
-      <p>I run a small team of AI agents in my terminal. They draft; I direct. This is how I move fast without cutting corners.</p>
+      <p>AI agents draft, I direct. Fast, without cutting corners.</p>
     </li>
     <li>
       <h3>Review</h3>
-      <p>Every diff goes through me. Same bar I held writing production code at Bloomberg, Amazon, and Etsy. No code goes live that I haven't read.</p>
+      <p>Every diff goes through me. Same bar as Bloomberg, Amazon, Etsy.</p>
     </li>
     <li>
       <h3>Launch</h3>
-      <p>Deployed to your hosting (Vercel, Railway, the App Store — whatever fits), wired to your domain, working in the real world.</p>
+      <p>Deployed to your hosting — Vercel, Railway, the App Store — wired to your domain.</p>
     </li>
     <li>
       <h3>Handoff</h3>
-      <p>You leave with the keys: full repo access, a <code>CLAUDE.md</code> documenting the codebase, and a 30-minute session that gets you set up to keep iterating on it yourself with Claude Code.</p>
+      <p>You leave with the repo, a <code>CLAUDE.md</code>, and a 30-min Claude Code setup session.</p>
     </li>
   </ol>
 </section>
@@ -202,25 +188,9 @@ permalink: /services/
   </div>
 </section>
 
-<!-- Add-ons -->
-<section class="services-addons">
-  <h2>Add-ons</h2>
-  <ul class="services-addons-list">
-    <li><strong>Custom domain setup</strong> — DNS, HTTPS, email forwarding wired up cleanly.</li>
-    <li><strong>Analytics setup</strong> — Plausible, PostHog, or GA4, configured and explained.</li>
-    <li><strong>Custom email at your domain</strong> — name@yourdomain.com via Cloudflare or Google Workspace.</li>
-    <li><strong>Logo + favicon + share image package</strong> — a coherent visual identity for your site.</li>
-    <li><strong>Stripe / payments integration</strong> — for the full-stack tier when you want to charge.</li>
-    <li><strong>30-day office hours</strong> — one weekly call after delivery to keep momentum.</li>
-  </ul>
-</section>
-
 <!-- Why Me -->
 <section class="services-why-me">
   <h2>Why me</h2>
-  <p>
-    I've spent a decade shipping production software at companies where the bar is high and the consequences are real — Bloomberg, Amazon, Etsy, Mastercard, Justworks. I have an MBA from Zicklin (CUNY Baruch). I coach engineers on breaking into and growing in tech.
-  </p>
   <p>
     You're not hiring a freelancer who learned this last quarter. You're hiring a senior engineer who happens to launch faster than most.
   </p>
@@ -232,7 +202,7 @@ permalink: /services/
 
   <div class="faq-item">
     <h3>Did you use AI to build this?</h3>
-    <p>Yes — AI writes the first draft. I review every line, refactor what doesn't meet my bar, and own the result. You're hiring a senior engineer with a decade of production experience at Bloomberg, Amazon, and Etsy — not a prompt-and-pray service.</p>
+    <p>Yes — AI writes the first draft. I review every line, refactor what doesn't meet my bar, and own the result. You're hiring a senior engineer with nearly a decade of experience shipping production software — including roles at Bloomberg, Amazon, and Etsy — not a prompt-and-pray service.</p>
   </div>
 
   <div class="faq-item">
@@ -267,6 +237,6 @@ permalink: /services/
   <p>20 minutes. We scope your project, see if it's a fit, and you walk away with a clearer plan either way.</p>
   <a href="https://calendly.com/chumaokoro/scoping-call/" class="cta-button">Book a 20-min scoping call</a>
   <p class="services-cta-fallback">
-    Or <a href="mailto:chuma.okoro76@gmail.com">email me</a> with a sentence about your project.
+    Or <a href="mailto:{{ site.email }}?subject=Project%20inquiry">email me</a> with a sentence about your project.
   </p>
 </section>
