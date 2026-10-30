@@ -192,8 +192,14 @@ permalink: /services/
 <section class="services-why-me">
   <h2>Why me</h2>
   <p>
-    You're not hiring a freelancer who learned this last quarter. You're hiring a senior engineer who happens to launch faster than most.
+    You're not hiring a freelancer who learned this last quarter. A few things that come with every project:
   </p>
+  <ul class="services-why-me-list">
+    <li><strong>I review every diff.</strong> AI drafts fast; I decide what ships. Same bar as Bloomberg, Amazon, Etsy.</li>
+    <li><strong>Written scope before any deposit.</strong> You sign off on an SOW — deliverables, timeline, and payment milestones — before I write a line of code.</li>
+    <li><strong>You own the repo.</strong> Code, deployment access, and a <code>CLAUDE.md</code> that any engineer (or you with Claude Code) can pick up.</li>
+    <li><strong>I've shipped my own.</strong> Tempo64, Echo Chamber, PodRank, ScalePal — all live in the App Store, built solo. Proof I can take an idea to a store listing without hand-holding.</li>
+  </ul>
 </section>
 
 <!-- FAQ -->
@@ -201,13 +207,8 @@ permalink: /services/
   <h2>FAQ</h2>
 
   <div class="faq-item">
-    <h3>Did you use AI to build this?</h3>
-    <p>Yes — AI writes the first draft. I review every line, refactor what doesn't meet my bar, and own the result. You're hiring a senior engineer with nearly a decade of experience shipping production software — including roles at Bloomberg, Amazon, and Etsy — not a prompt-and-pray service.</p>
-  </div>
-
-  <div class="faq-item">
-    <h3>Why not use Cursor or Lovable myself?</h3>
-    <p>You can. Most people get 60% of the way and stall on auth, deployment, or the next feature. I get you to a launched, working app — and on the handoff call, I teach you how to keep going.</p>
+    <h3>How does payment work?</h3>
+    <p>Stripe Invoice. 50% deposit upfront, 50% on delivery for the portfolio and iOS tiers. Full-stack tier is 30/30/40 against milestones we agree on in the SOW I send before any deposit.</p>
   </div>
 
   <div class="faq-item">
@@ -221,8 +222,13 @@ permalink: /services/
   </div>
 
   <div class="faq-item">
-    <h3>How does payment work?</h3>
-    <p>Stripe Invoice. 50% deposit upfront, 50% on delivery for the portfolio and iOS tiers. Full-stack tier is 30/30/40 against milestones we agree on in the Statement of Work (a one-page scope doc I send before any deposit).</p>
+    <h3>Why not use Cursor or Lovable myself?</h3>
+    <p>You can. Most people get 60% of the way and stall on auth, deployment, or the next feature. I get you to a launched, working app — and on the handoff call, I teach you how to keep going.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Did you use AI to build this?</h3>
+    <p>Yes — AI writes the first draft. I review every line, refactor what doesn't meet my bar, and own the result. You're hiring a senior engineer with nearly a decade of experience shipping production software — including roles at Bloomberg, Amazon, and Etsy — not a prompt-and-pray service.</p>
   </div>
 
   <div class="faq-item">
